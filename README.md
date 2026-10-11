@@ -1,4 +1,4 @@
-# Skill Gap Lynx
+# Skill Gap Analysis
 
 AI-powered CV analysis and mock interviews with learning roadmaps, YouTube resources, and English/Urdu voice support.
 
@@ -80,4 +80,4 @@ Local `.venv`, `.env`, `.git`, cache folders, and logs are not app source upload
 
 ## Developer
 
-Muhammad Shamikh — [GitHub](https://github.com/shamikh003)
+[marmahmus](https://github.com/marmahmus)

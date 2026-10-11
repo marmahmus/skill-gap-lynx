@@ -1,4 +1,4 @@
-"""Central configuration for Skill Gap Lynx.
+"""Central configuration for Skill Gap Analysis.
 
 All secrets are loaded from environment variables / .env only.
 Nothing sensitive is ever hard-coded in the source tree.
