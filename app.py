@@ -1,4 +1,4 @@
-"""Skill Smith: AI-powered resume screening and live voice interview.
+"""Skill Gap Analysis: AI-powered resume screening and live voice interview.
 
 A single-page Streamlit app that:
   1. Extracts text from an uploaded PDF resume.
@@ -32,7 +32,7 @@ from modules.youtube import get_learning_videos
 # Page setup & styling
 # --------------------------------------------------------------------------
 st.set_page_config(
-    page_title="Skill Smith",
+    page_title="Skill Gap Analysis",
     layout="wide",
     initial_sidebar_state="collapsed",
 )
@@ -346,7 +346,7 @@ def extract_resume_text(file_bytes, filename):
 st.markdown(
     """
     <div class="hero">
-      <h1>Skill Smith</h1>
+      <h1>Skill Gap Analysis</h1>
       <p>AI-powered resume screening &amp; live voice interview, for <b>any</b> job, any field.</p>
       <div class="pill-row">
         <span class="pill">Smart match scoring</span>
@@ -769,6 +769,6 @@ if res:
 
 st.markdown(
     "<p style='text-align:center;color:#55556e;font-size:.8rem;margin-top:2rem'>"
-    "Built with Streamlit, Groq, Whisper | Skill Smith</p>",
+    "Built with Streamlit, Groq, Whisper | Skill Gap Analysis</p>",
     unsafe_allow_html=True,
 )
